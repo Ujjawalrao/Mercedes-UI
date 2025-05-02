@@ -6,9 +6,9 @@ function Hero() {
     <>
       <section
         id="hero"
-        className="w-full h-auto lg:h-screen flex flex-col lg:flex-row lg:flex gap-2 pb-[30px] pt-[10px] px-[40px]"
+        className="w-full h-auto lg:h-screen flex flex-col lg:flex-row lg:flex gap-2 pb-[30px] pt-[10px] px-[20px]  lg:px-[40px]"
       >
-        <div className="relative w-full lg:w-[80%] overflow-hidden  h-[95vh] lg:h-full rounded-4xl">
+        <div className="relative w-full lg:w-[80%] overflow-hidden outline-none border-none  h-[95vh] lg:h-full rounded-4xl">
           <video
             className="w-full border-2 h-full object-cover"
             autoPlay
@@ -16,7 +16,7 @@ function Hero() {
             loop
             src="src/assets/original (1).mp4"
           ></video>
-
+  
           {/* hero inner-box */}
           <div className="absolute bottom-0 flex justify-center items-center left-0 rounded-tr-3xl bg-[var(--bg-dark-color)] h-[10%] w-[50%]">
             <motion.h1
