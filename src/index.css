@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* CSS Boilerplate */
+/* 1. Reset some default browser styles */
+:root{
+  --bg-dark-color: #f9f9fc;
+  --text-light: #1a1919;
+
+}
+
+/* 2. Set base font styles */
+html, body {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg-dark-color);
+  /* color: #e7e7ed; */
+}
+
+/* 3. Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* 4. Remove link underline and set color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
