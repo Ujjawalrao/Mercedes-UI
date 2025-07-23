@@ -8,7 +8,7 @@ function Hero() {
         id="hero"
         className="w-full h-auto lg:h-screen flex flex-col lg:flex-row lg:flex gap-2 pb-[30px] pt-[10px] px-[20px]  lg:px-[40px]"
       >
-        <div className="relative w-full lg:w-[80%] overflow-hidden outline-none border-none  h-[95vh] lg:h-full rounded-4xl">
+        <div className="relative bg-[url('https://i.pinimg.com/1200x/d8/66/8b/d8668b8ef8a35c10b85ab7f4c5433ea1.jpg')] bg-no-repeat bg-cover bg-center w-full lg:w-[80%] overflow-hidden outline-none border-none   h-[95vh] lg:h-full rounded-4xl">
           <video
             className="w-full border-2 h-full object-cover"
             autoPlay

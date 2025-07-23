@@ -6,8 +6,9 @@ function Design() {
     <>
       <section id="Design" className="w-full h-[140vh] lg:h-[250vh] ">
         <video
-          className="h-[60vh] lg:h-[130vh] w-full object-cover"
-          src="src/assets/original.mp4"
+          className="h-[60vh] lg:h-[130vh] w-full object-cover bg-[url('https://images.pexels.com/photos/20264911/pexels-photo-20264911.jpeg')] bg-[url('https://www.mercedes-benz.com/content/dam/brandhub/assets/design/global-design-network/06_Design_showcars_portfolio_2022_220609_5_2d_final.png/_jcr_content/renditions/image-crop-default.jpeg/1730309458446.jpg?im=Resize=(1680);Crop,rect=(0,0,1680,853)')] bg-no-repeat bg-cover bg-center "
+          src="src/assets/original.mp" // .mp k baad 4 lga agr vdo chalani h to .
+
           autoPlay
           loop
           muted

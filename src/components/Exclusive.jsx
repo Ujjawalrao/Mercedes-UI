@@ -9,7 +9,7 @@ function Exclusive() {
           <div className="h-full w-full lg:w-[30%] flex justify-center items-center bg-black rounded-4xl overflow-hidden  ">
             <img
             className="h-full w-full object-center object-cover hover:scale-105 duration-400 ease-in-out"
-              src="https://i.pinimg.com/736x/54/07/26/540726c05f40ac4f688462c8e4f7ea78.jpg"
+              src="https://www.mercedes-benz.com/content/dam/brandhub/assets/design/sensual-purity/SL_Family_EXT_Lava_211007_04.cbv20241030173051.png/_jcr_content/renditions/mq7-original-aspect.jpeg"
               alt=""
             />
           </div>

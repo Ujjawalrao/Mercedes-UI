@@ -6,8 +6,8 @@ function Card({title,about,link}) {
     <>
       <div className="w-[85%] h-[100%] md:h-[60%] shadow-md rounded-bl-4xl rounded-tr-4xl overflow-hidden ">
         <div className="p-4 ">
-          <p className="text-sm font-medium">{title}</p>
-          <h2 className="md:text-2xl text-[14px] font-serif font-semibold mt-1">
+          <p className="text-sm text-white font-medium">{title}</p>
+          <h2 className="md:text-2xl text-[14px] text-white font-serif font-semibold mt-1">
             {about}
           </h2>
         </div>

@@ -9,6 +9,7 @@ import Design from "./components/Design";
 import Exclusive from "./components/Exclusive";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
+import Try from "./components/Try";
 
 function App() {
   // reload to top
@@ -63,11 +64,11 @@ function App() {
       </motion.div>
       <Navbar />
       <Hero />
+      <Try />
       <Vehicles />
       <Design />
       <Exclusive />
       <Contact />
-
       <Footer />
     </>
   );
