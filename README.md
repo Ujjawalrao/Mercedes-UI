@@ -1,12 +1,36 @@
-# React + Vite
+# 🚗 Mercedes-Benz – Car Brand UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern frontend UI clone inspired by the Mercedes-Benz brand**, built using **React.js**.  
+This project focuses on **luxury UI design, and high-quality animations**, **motion.dev**, and **Lenis smooth scrolling**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+https://mercedes-ui-eight.vercel.app/
+🔗 https://ujjawalraosahab.netlify.app/  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎞️ Smooth animations using **motion.dev**
+- 🌀 Premium smooth scrolling with **Lenis**
+- 🚘 Luxury car brand–inspired UI
+- 📱 Fully responsive design
+- 🎨 Clean, minimal, and premium layout
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **motion.dev** (Animations)
+- **Lenis** (Smooth Scroll)
+- **CSS / Tailwind CSS** *(mention what you used)*
+- **Vercel**
+
+---
+
+
