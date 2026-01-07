@@ -6,9 +6,9 @@ function Design() {
     <>
       <section id="Design" className="w-full h-[140vh] lg:h-[250vh] ">
         <video
-          className="h-[60vh] lg:h-[130vh] w-full object-cover bg-[url('https://images.pexels.com/photos/20264911/pexels-photo-20264911.jpeg')] bg-[url('https://www.mercedes-benz.com/content/dam/brandhub/assets/design/global-design-network/06_Design_showcars_portfolio_2022_220609_5_2d_final.png/_jcr_content/renditions/image-crop-default.jpeg/1730309458446.jpg?im=Resize=(1680);Crop,rect=(0,0,1680,853)')] bg-no-repeat bg-cover bg-center "
+          className="h-[60vh] lg:h-[130vh] w-full object-cover bg-[url('https://i.pinimg.com/1200x/50/4e/bc/504ebc4cbb8c25935d3864e472609bef.jpg')] bg-[url('')] bg-no-repeat bg-cover bg-center "
           src="src/assets/original.mp" // .mp k baad 4 lga agr vdo chalani h to .
-
+            // src="https://www.mercedes-benz.co.in/content/dam/hq/passengercars/mb-oc/liI-tvc-30s-eqs-wodp-wsf-weotr-16-9-vo-en-hqmaster-l-ending-h264-1-1.mp4"
           autoPlay
           loop
           muted

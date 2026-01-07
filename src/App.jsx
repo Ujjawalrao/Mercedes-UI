@@ -10,6 +10,7 @@ import Exclusive from "./components/Exclusive";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
 import Try from "./components/Try";
+import { ThemeProvider } from "./ThemeContext";
 
 function App() {
   // reload to top
@@ -29,48 +30,50 @@ function App() {
   });
 
   return (
-    <>
-      <motion.div
-        animate={{
-          y: -1700,
-        }}
-        transition={{
-          duration: 3,
-          delay: 1.5,
-        }}
-        className="overflow-y-hidden h-screen w-screen absolute top-0 z-95 flex flex-col bg-white "
-      >
-        {/* text bran name */}
+    <ThemeProvider>
+      <>
         <motion.div
           animate={{
-            y: -1000,
+            y: -1700,
           }}
           transition={{
             duration: 3,
-            ease:"easeInOut"
+            delay: 1.5,
           }}
-          className="bg-black h-screen w-screen "
-        ></motion.div>
-        <motion.div
-          animate={{
-            y: 1000,
-          }}
-          transition={{
-            duration: 3,
-            ease:"easeInOut"
-          }}
-          className="bg-black h-screen w-screen "
-        ></motion.div>
-      </motion.div>
-      <Navbar />
-      <Hero />
-      <Try />
-      <Vehicles />
-      <Design />
-      <Exclusive />
-      <Contact />
-      <Footer />
-    </>
+          className="overflow-y-hidden h-screen w-screen absolute top-0 z-95 flex flex-col bg-white "
+        >
+          {/* text bran name */}
+          <motion.div
+            animate={{
+              y: -1000,
+            }}
+            transition={{
+              duration: 3,
+              ease:"easeInOut"
+            }}
+            className="bg-black h-screen w-screen "
+          ></motion.div>
+          <motion.div
+            animate={{
+              y: 1000,
+            }}
+            transition={{
+              duration: 3,
+              ease:"easeInOut"
+            }}
+            className="bg-black h-screen w-screen "
+          ></motion.div>
+        </motion.div>
+        <Navbar />
+        <Hero />
+        <Try />
+        <Vehicles />
+        <Design />
+        <Exclusive />
+        <Contact />
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 }
 

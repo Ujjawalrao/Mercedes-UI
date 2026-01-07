@@ -1,12 +1,13 @@
-import React from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import React, { useContext } from 'react'
+import { ThemeContext } from "../ThemeContext"
 
 function Footer() {
+  const { isDark } = useContext(ThemeContext);
   return (
     <>
     
-    <footer className="text-[var(--text-light)] w-full p-6 sm:p-10 flex flex-col justify-center items-center gap-10 sm:gap-14">
-  <ul className="text-sm font-sans flex flex-wrap justify-center gap-6 sm:gap-10 border-t-2 pt-6 sm:pt-10 px-4 sm:px-16 text-center">
+    <footer className={`${isDark ? "text-white" : "text-black"} w-full p-6 sm:p-10 flex flex-col justify-center items-center gap-10 sm:gap-14`}>
+  <ul className={`text-sm font-sans flex flex-wrap justify-center gap-6 sm:gap-10 border-t-2 pt-6 sm:pt-10 px-4 sm:px-16 text-center ${isDark ? "border-gray-600" : "border-gray-400"}`}>
     <li className="cursor-pointer hover:tracking-wide duration-300 ease-in-out">Provider</li>
     <li className="cursor-pointer hover:tracking-wide duration-300 ease-in-out">Legal Notice</li>
     <li className="cursor-pointer hover:tracking-wide duration-300 ease-in-out">Settings</li>
@@ -35,7 +36,7 @@ function Footer() {
       <i className="ri-arrow-up-s-line"></i>
       <p className="font-semibold tracking-wider">TOP</p>
     </a>
-    <p className="mt-4 text-gray-500/75 text-sm"> &copy; Copyright by
+    <p className={`mt-4 text-sm ${isDark ? "text-gray-400" : "text-gray-600"}`}> &copy; Copyright by
       <a
         className=""
         href="https://ujjawalraosahab.netlify.app/"

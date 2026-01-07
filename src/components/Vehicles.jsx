@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "./Card";
 import { motion } from "motion/react"
+import { ThemeContext } from "../ThemeContext";
 
 function Vehicles() {
+  const { isDark } = useContext(ThemeContext);
   return (
     <>
-      <section id="Vehicles" className="w-full bg-black  h-screen md:h-[240vh] mt-4 mb-0  md:mb-0 md:px-[40px]">
-        <div className="w-full h-[50vh] bg-black md:h-[100vh] flex flex-col md:gap-0 gap-4 md:flex-row md:pt-20">
+      <section id="Vehicles" className={`w-full ${isDark ? "bg-black" : "bg-white"} h-[105vh] md:h-[240vh] mt-4 mb-0  md:mb-0 md:px-[40px]`}>
+        <div className={`w-full h-[50vh] ${isDark ? "bg-black" : "bg-white"} md:h-[100vh] flex flex-col md:gap-0 gap-4 md:flex-row md:pt-20`}>
           <div className="w-full h-full md:h-full flex lg:flex justify-center">
             {/* card  */}
             <Card
@@ -24,7 +26,7 @@ function Vehicles() {
             />
           </div>
         </div>
-        <div className="w-full h-[50vh] 2 md:h-[100vh] flex flex-col md:flex-row md:pt-20">
+        <div className={`w-full h-[50vh] 2 md:h-[100vh] flex flex-col md:flex-row md:pt-20 ${isDark ? "bg-black" : "bg-white"}`}>
           <div className="w-full h-full md:h-full flex lg:flex justify-center">
             {/* card  */}
             <Card title="Fahrzeuge" about="Because it's Mercedes Benz." link="https://i.pinimg.com/736x/1a/98/b5/1a98b52e451748b0709a7cc32fa6c9dd.jpg" />

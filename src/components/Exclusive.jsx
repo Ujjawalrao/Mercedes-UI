@@ -1,17 +1,21 @@
 import React from "react";
 import { motion } from "motion/react";
+import Spline from '@splinetool/react-spline';
 
 function Exclusive() {
   return (
     <>
-      <section id="Exclusive" className="h-[160vh] w-full overflow-hidden">
+      <section id="Exclusive" className="h-[160vh] w-full overflow-hidden ">
         <div className="w-full h-[100vh] flex flex-col lg:flex-row gap-4 px-[40px] ">
           <div className="h-full w-full lg:w-[30%] flex justify-center items-center bg-black rounded-4xl overflow-hidden  ">
-            <img
+            {/* <img
             className="h-full w-full object-center object-cover hover:scale-105 duration-400 ease-in-out"
               src="https://www.mercedes-benz.com/content/dam/brandhub/assets/design/sensual-purity/SL_Family_EXT_Lava_211007_04.cbv20241030173051.png/_jcr_content/renditions/mq7-original-aspect.jpeg"
               alt=""
-            />
+            /> */}
+             <Spline
+        scene="https://prod.spline.design/7iGvGLA1RjoAphhI/scene.splinecode" 
+      />
           </div>
           <div className="h-full w-full lg:w-[70%] rounded-4xl overflow-hidden">
             {/* Top Section */}
